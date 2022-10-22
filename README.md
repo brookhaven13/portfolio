@@ -8,3 +8,5 @@ Awesome tech & tools I used for this projects:
 - Tailwind CSS
 - React Simple Typewriter library
 - Farmer Motion library
+- Material UI library
+- react-social-icons library
