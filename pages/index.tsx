@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="h-screen bg-[#2e3440] text-slate-300 font-nunito">
       <Head>
         <title>Harley&apos;s Portfolio</title>
         <meta name="description" content="Harley's Personal Website" />

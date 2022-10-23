@@ -6,7 +6,7 @@ type Props = {};
 
 function Header({}: Props) {
   return (
-    <header className="sticky top-0 flex items-center justify-between px-2 mx-auto max-w-full z-20 xl:items-center">
+    <header className="sticky top-0 flex items-center justify-between px-2 mx-auto max-w-full z-20 xl:items-center font-noto-sans">
       <motion.div
         initial={{
           x: -100,
@@ -21,7 +21,7 @@ function Header({}: Props) {
         transition={{
           duration: 0.8,
         }}
-        className="flex flex-col px-2 text-gray-500"
+        className="flex flex-col px-2 text-slate-300 uppercase font-black text-3xl"
       >
         <span>Har</span>
         <span>ley</span>
@@ -57,7 +57,7 @@ function Header({}: Props) {
         transition={{
           duration: 1,
         }}
-        className="uppercase hidden md:flex max-w-md w-full justify-evenly gap-2 text-sm text-gray-500"
+        className="hidden md:flex max-w-md w-full justify-evenly gap-2 uppercase text-sm text-slate-300"
       >
         <span className="cursor-pointer">About</span>
         <span className="cursor-pointer">Projects</span>

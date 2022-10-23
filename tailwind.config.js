@@ -5,6 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      nunito: ["nunito", "monospace"],
+      "noto-sans": ["Noto Sans", "monospace"],
+    },
     extend: {},
   },
   variants: {

@@ -8,11 +8,16 @@ const Hero = (props: Props) => {
     words: [
       "A Frontend Web Developer",
       "TurnCoffeeIntoCode.tsx",
-      "<VisualStudioCode theme={Nord}/>",
-      ".keyboard-style: {color: white}",
+      'let myMotto = "Keep calm and <code> on"',
+      "<VisualStudioCode theme={Nord} />",
+      "#keyboard: {color: white, switches: brown}",
     ],
+    loop: true,
+    delaySpeed: 2000,
+    typeSpeed: 80,
+    deleteSpeed: 20,
   });
-  return <div>Hero</div>;
+  return <div>{text}</div>;
 };
 
 export default Hero;
