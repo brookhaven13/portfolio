@@ -4,6 +4,7 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { builtinModules } from "module";
 
 type Props = {};
 
@@ -12,6 +13,10 @@ export default function MenuBotton({}: Props) {
   const darkTheme = createTheme({
     palette: {
       mode: "dark",
+      background: {
+        paper: "#2E3440",
+        default: "#2E3440",
+      },
     },
   });
 
