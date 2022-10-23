@@ -57,11 +57,11 @@ function Header({}: Props) {
         transition={{
           duration: 1,
         }}
-        className="uppercase hidden md:inline-flex text-sm text-gray-500"
+        className="uppercase hidden md:flex max-w-md w-full justify-evenly gap-2 text-sm text-gray-500"
       >
-        <span>About</span>
-        <span>Projects</span>
-        <span>Contact</span>
+        <span className="cursor-pointer">About</span>
+        <span className="cursor-pointer">Projects</span>
+        <span className="cursor-pointer">Contact</span>
       </motion.div>
     </header>
   );
