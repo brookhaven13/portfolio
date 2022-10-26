@@ -7,10 +7,10 @@ type Props = {};
 const Hero = (props: Props) => {
   const [text, count] = useTypewriter({
     words: [
-      'let myMotto = "Keep calm and <code> on"',
+      "<app-keep-calm-and-code-on>",
       "TurnCoffeeIntoCode.tsx",
       "<VisualStudioCode theme={Nord} />",
-      "#keyboard: {color: white, switches: brown}",
+      ".keyboard: {switches: brown}",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
     deleteSpeed: 20,
   });
   return (
-    <div className="h-screen flex flex-col items-center justify-center space-y-8 text-center overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center space-y-8 gap-4 text-center overflow-hidden">
       <div className="flex flex-col">
         <span className="font-thin text-xl text-slate-400 text-left ml-8 z-10">
           I AM
@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
         <span>A FRONTEND</span>
         <span>WEB DEVELOPER</span>
       </div>
-      <div className="flex justify-end text-[#88c0d0]">
+      <div className="flex justify-end text-xl text-[#88c0d0] font-bold">
         {text}
         <Cursor cursorColor="#81a1c1" />
       </div>

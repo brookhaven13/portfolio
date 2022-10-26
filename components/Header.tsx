@@ -24,7 +24,11 @@ function Header({}: Props) {
         className="flex flex-col px-2 text-slate-300 uppercase font-black text-3xl"
       >
         <span>Har</span>
-        <span>ley</span>
+        <span className="flex justify-around">
+          <span>l</span>
+          <span>e</span>
+          <span>y</span>
+        </span>
       </motion.div>
       <motion.div
         initial={{
