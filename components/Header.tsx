@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import MenuBotton from "./MenuButton";
+import Link from "next/link";
 
 type Props = {};
 
@@ -23,8 +24,8 @@ function Header({}: Props) {
         }}
         className="flex flex-col px-2 text-slate-300 uppercase font-black text-3xl"
       >
-        <span>Har</span>
-        <span className="flex justify-around">
+        <span className="cursor-default">Har</span>
+        <span className="flex justify-around cursor-default">
           <span>l</span>
           <span>e</span>
           <span>y</span>
@@ -63,9 +64,17 @@ function Header({}: Props) {
         }}
         className="hidden md:flex max-w-md w-full justify-evenly gap-2 uppercase text-sm text-slate-300"
       >
-        <span className="cursor-pointer">About</span>
-        <span className="cursor-pointer">Projects</span>
-        <span className="cursor-pointer">Contact</span>
+        <Link href="#about">
+          <button className="uppercase hover:text-white drop-shadow-sm">
+            About
+          </button>
+        </Link>
+        <Link href="#projects">
+          <button className="uppercase hover:text-white">Projects</button>
+        </Link>
+        <Link href="#contact">
+          <button className="uppercase hover:text-white">Contact</button>
+        </Link>
       </motion.div>
     </header>
   );
