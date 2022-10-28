@@ -23,7 +23,7 @@ const Hero = (props: Props) => {
         <span className="font-thin text-xl text-slate-400 text-left ml-8 z-10">
           I AM
         </span>
-        <span className="my-2 text-9xl font-noto-sans font-bold z-10">
+        <span className="my-2 text-7xl font-noto-sans font-bold z-10 md:text-9xl">
           HARLEY
         </span>
         <BackgroundCircles />

@@ -5,6 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { builtinModules } from "module";
+import Link from "next/link";
 
 type Props = {};
 
@@ -60,13 +61,13 @@ export default function MenuBotton({}: Props) {
         }}
       >
         <MenuItem className="text-slate-100" onClick={handleClose}>
-          About
+          <Link href="#about">About</Link>
         </MenuItem>
         <MenuItem className="text-slate-100" onClick={handleClose}>
-          Projects
+          <Link href="#projects">Projects</Link>
         </MenuItem>
         <MenuItem className="text-slate-100" onClick={handleClose}>
-          Contact
+          <Link href="#contact">Contact</Link>
         </MenuItem>
       </Menu>
     </ThemeProvider>
