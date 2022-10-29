@@ -3,4 +3,11 @@
 @tailwind utilities;
 
 @layer components {
+  .custom-mask {
+    background: url("./../public/flower.jpg") -100% 40%;
+    background-clip: text;
+    background-position: contain;
+    color: #de466c;
+    -webkit-text-fill-color: transparent;
+  }
 }

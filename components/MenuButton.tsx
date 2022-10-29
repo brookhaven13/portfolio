@@ -60,16 +60,16 @@ export default function MenuBotton({}: Props) {
           },
         }}
       >
-        <MenuItem className="text-slate-100" onClick={handleClose}>
+        <MenuItem className="text-[#D8DEE9]" onClick={handleClose}>
           <Link href="#about">About</Link>
         </MenuItem>
-        <MenuItem className="text-slate-100" onClick={handleClose}>
+        <MenuItem className="text-[#D8DEE9]" onClick={handleClose}>
           <Link href="#experience">Experience</Link>
         </MenuItem>
-        <MenuItem className="text-slate-100" onClick={handleClose}>
+        <MenuItem className="text-[#D8DEE9]" onClick={handleClose}>
           <Link href="#projects">Projects</Link>
         </MenuItem>
-        <MenuItem className="text-slate-100" onClick={handleClose}>
+        <MenuItem className="text-[#D8DEE9]" onClick={handleClose}>
           <Link href="#contact">Contact</Link>
         </MenuItem>
       </Menu>

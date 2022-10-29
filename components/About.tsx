@@ -7,7 +7,7 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <div className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto">
-      <motion.h3
+      <motion.div
         initial={{
           opacity: 0,
         }}
@@ -17,10 +17,17 @@ const About = (props: Props) => {
         transition={{
           duration: 2,
         }}
-        className="uppercase mt-8 tracking-[20px] text-[#ECEFF4] text-2xl drop-shadow-xl"
       >
-        About Me
-      </motion.h3>
+        <p className="custom-mask relative top-10 md:top-20 -left-32 font-noto-sans font-black text-8xl tracking-wider">
+          01
+        </p>
+
+        <h3 className="uppercase mt-8 tracking-[20px] text-[#ECEFF4] text-2xl drop-shadow-xl">
+          About Me
+          <div className="bg-[#434C5E] w-[17rem] h-[1px] mt-1"></div>
+          <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
+        </h3>
+      </motion.div>
       <motion.div
         initial={{
           opacity: 0,
@@ -64,7 +71,7 @@ const About = (props: Props) => {
           }}
           className="text-[#aeb5c3] text-xs text-left px-6 font-thin md:px-9 md:text-sm xl:text-base"
         >
-          <h4 className="text-[#E5E9F0] text-base text-center my-2 lg:text-lg lg:text-left xl:text-2xl xl:text-left xl:mb-8">
+          <h4 className="text-[#E5E9F0] text-base text-center my-2 md:text-left lg:text-lg lg:text-left xl:text-2xl xl:mb-8 xl:text-left">
             Story About a Dream Pursuer
           </h4>
           <p>
