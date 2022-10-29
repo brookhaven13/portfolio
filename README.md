@@ -2,7 +2,7 @@
 
 This is my personal website.
 
-Awesome tech & tools I used for this projects:
+Tech & tools I used for this projects:
 
 - Next.js with TypeScript
 - Tailwind CSS
