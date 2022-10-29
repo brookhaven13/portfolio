@@ -31,7 +31,7 @@ const About = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-col items-center gap-10 h-auto md:flex-row"
+        className="flex flex-col items-center gap-4 h-auto md:flex-row"
       >
         <motion.img
           initial={{
@@ -42,6 +42,9 @@ const About = (props: Props) => {
           }}
           transition={{
             duration: 1.2,
+          }}
+          viewport={{
+            once: true,
           }}
           src={avatar.src}
           className="md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:ml-8 md:rounded-3xl md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
@@ -56,10 +59,13 @@ const About = (props: Props) => {
           transition={{
             duration: 1.2,
           }}
+          viewport={{
+            once: true,
+          }}
           className="text-xs text-left px-6 font-light md:px-9 md:text-sm xl:text-base"
         >
           <h4 className="font-bold text-lg my-2 md:text-xl xl:text-2xl xl:mb-8">
-            Story About a Dreamer Persuer
+            Story About a Dream Pursuer
           </h4>
           <p>
             Since I was a teenager, I have a great interest in Computer
@@ -87,8 +93,8 @@ const About = (props: Props) => {
           </p>
           <p className="mt-2">
             Finally, all the hard work has paid off. Now I am a Front-end Web
-            developer for almost 3-year. And I&apos;ll continuse to move
-            forward.
+            developer for almost 3-year. It took me a long way to acheive my
+            dream, and I&apos;ll continue to move forward.
           </p>
         </motion.div>
       </motion.div>
