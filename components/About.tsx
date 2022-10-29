@@ -79,9 +79,11 @@ const About = (props: Props) => {
           <p className="mt-2">
             So I decided to follow my heart:
             <span className="font-bold"> I want to be a programmer</span>. This
-            thought I&apos;d kept in my mind since college. That time I was more
-            determined than ever. I quit the job and attended a coding bootcamp,
-            and I worked as hard as I could.
+            thought I&apos;d kept in my mind since college. This time I was more
+            determined than ever. I quit the job and attended a coding bootcamp;
+            I worked as hard as I could. Becuase of this course, I learned the
+            difference between frontend and backend. I found out I like frontend
+            more.
           </p>
           <p className="mt-2">
             Finally, all the hard work has paid off. Now I am a Front-end Web
