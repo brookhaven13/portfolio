@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       nunito: ["nunito", "monospace"],
       "noto-sans": ["Noto Sans", "monospace"],
+      mono: ["Menlo", "monospace", "Consolas"],
     },
     extend: {},
   },

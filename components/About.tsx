@@ -15,7 +15,7 @@ const About = (props: Props) => {
           opacity: 1,
         }}
         transition={{
-          duration: 2,
+          duration: 3,
         }}
       >
         <p className="custom-mask relative top-10 md:top-20 -left-32 font-noto-sans font-black text-8xl tracking-wider">
