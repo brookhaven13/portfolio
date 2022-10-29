@@ -22,7 +22,7 @@ function Header({}: Props) {
         transition={{
           duration: 0.8,
         }}
-        className="flex flex-col px-2 text-slate-300 uppercase font-black text-base my-2 md:text-3xl"
+        className="flex flex-col px-2 text-[#D8DEE9] uppercase font-black text-base my-2 md:text-3xl"
       >
         <Link href="#hero">
           <div className="cursor-pointer">
@@ -66,18 +66,21 @@ function Header({}: Props) {
         transition={{
           duration: 1,
         }}
-        className="hidden md:flex max-w-md w-full justify-evenly gap-2 uppercase text-sm text-slate-300"
+        className="hidden md:flex max-w-md w-full justify-evenly gap-2 uppercase text-sm text-[#D8DEE9]"
       >
         <Link href="#about">
-          <button className="uppercase hover:text-white drop-shadow-sm">
+          <button className="uppercase hover:text-[#88C0D0] drop-shadow-sm">
             About
           </button>
         </Link>
+        <Link href="#experience">
+          <button className="uppercase hover:text-[#88C0D0]">Experience</button>
+        </Link>
         <Link href="#projects">
-          <button className="uppercase hover:text-white">Projects</button>
+          <button className="uppercase hover:text-[#88C0D0]">Projects</button>
         </Link>
         <Link href="#contact">
-          <button className="uppercase hover:text-white">Contact</button>
+          <button className="uppercase hover:text-[#ECEFF4]">Contact</button>
         </Link>
       </motion.div>
     </header>

@@ -17,7 +17,7 @@ const About = (props: Props) => {
         transition={{
           duration: 2,
         }}
-        className="uppercase mt-8 tracking-[20px] text-slate-300 text-2xl"
+        className="uppercase mt-8 tracking-[20px] text-[#ECEFF4] text-2xl drop-shadow-xl"
       >
         About Me
       </motion.h3>
@@ -62,9 +62,9 @@ const About = (props: Props) => {
           viewport={{
             once: true,
           }}
-          className="text-xs text-left px-6 font-light md:px-9 md:text-sm xl:text-base"
+          className="text-[#aeb5c3] text-xs text-left px-6 font-thin md:px-9 md:text-sm xl:text-base"
         >
-          <h4 className="font-bold text-lg my-2 md:text-xl xl:text-2xl xl:mb-8">
+          <h4 className="text-[#E5E9F0] text-base text-center my-2 lg:text-lg lg:text-left xl:text-2xl xl:text-left xl:mb-8">
             Story About a Dream Pursuer
           </h4>
           <p>
@@ -84,15 +84,15 @@ const About = (props: Props) => {
           </p>
           <p className="mt-2">
             So I decided to follow my heart:
-            <span className="font-bold"> I want to be a programmer</span>. This
-            thought I&apos;d kept in my mind since college. This time I was more
-            determined than ever. I quit the job and attended a coding bootcamp;
-            I worked as hard as I could. Becuase of this course, I learned the
-            difference between frontend and backend. I found out I like frontend
-            more.
+            <span className="text-[#E5E9F0]"> I want to be a programmer</span>.
+            This thought I&apos;d kept in my mind since college. This time I was
+            more determined than ever. I quit the job and attended a coding
+            bootcamp; I worked as hard as I could. Becuase of this course, I
+            learned the difference between frontend and backend. I found out I
+            like frontend more.
           </p>
           <p className="mt-2">
-            Finally, all the hard work has paid off. Now I am a Front-end Web
+            Finally, all the hard work has paid off. Now I am a frontend
             developer for almost 3-year. It took me a long way to acheive my
             dream, and I&apos;ll continue to move forward.
           </p>

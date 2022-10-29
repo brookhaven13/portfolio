@@ -64,6 +64,9 @@ export default function MenuBotton({}: Props) {
           <Link href="#about">About</Link>
         </MenuItem>
         <MenuItem className="text-slate-100" onClick={handleClose}>
+          <Link href="#experience">Experience</Link>
+        </MenuItem>
+        <MenuItem className="text-slate-100" onClick={handleClose}>
           <Link href="#projects">Projects</Link>
         </MenuItem>
         <MenuItem className="text-slate-100" onClick={handleClose}>

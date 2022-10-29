@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
   return (
     <div className="h-screen flex flex-col items-center justify-center space-y-8 gap-4 text-center overflow-hidden">
       <div className="flex flex-col">
-        <span className="font-thin text-xl text-slate-400 text-left ml-8 z-10">
+        <span className="font-thin text-xl text-[#81A1C1] text-left ml-8 z-10">
           I AM
         </span>
         <span className="my-2 text-7xl font-noto-sans font-bold z-10 md:text-9xl">
@@ -28,11 +28,11 @@ const Hero = (props: Props) => {
         </span>
         <BackgroundCircles />
       </div>
-      <div className="font-thin text-xl text-slate-400 flex flex-col items-end justify-evenly h-6 w-60">
+      <div className="font-thin text-xl text-[#81A1C1] flex flex-col items-end justify-evenly h-6 w-60">
         <span>A FRONTEND</span>
         <span>WEB DEVELOPER</span>
       </div>
-      <div className="flex justify-end text-xl text-[#88c0d0] font-bold">
+      <div className="flex justify-end text-xl text-[#D8DEE9] font-bold">
         {text}
         <Cursor cursorColor="#81a1c1" />
       </div>
