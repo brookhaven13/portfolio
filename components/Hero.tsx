@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
         <span>A FRONTEND</span>
         <span>WEB DEVELOPER</span>
       </div>
-      <div className="flex justify-end font-mono text-xl text-[#8fbcbb]">
+      <div className="flex justify-end font-mono text-xl text-[#8fbcbb] z-10">
         {text}
         <Cursor cursorColor="#D8DEE9" />
       </div>

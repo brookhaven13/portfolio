@@ -18,7 +18,7 @@ const Experience = (props: Props) => {
           duration: 3,
         }}
       >
-        <p className="custom-mask relative top-10 md:top-20 -left-32 font-noto-sans font-black text-8xl tracking-wider">
+        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-28 font-noto-sans font-black text-8xl tracking-wider">
           02
         </p>
 

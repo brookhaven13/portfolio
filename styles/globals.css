@@ -9,5 +9,6 @@
     background-position: contain;
     color: #de466c;
     -webkit-text-fill-color: transparent;
+    margin: 0.5rem;
   }
 }
