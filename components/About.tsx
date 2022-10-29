@@ -6,42 +6,58 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <motion.div
-      initial={{
-        y: -200,
-        opacity: 0,
-      }}
-      whileInView={{
-        y: 0,
-        opacity: 1,
-      }}
-      transition={{
-        duration: 1.5,
-      }}
-      viewport={{ once: true }}
-      className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto"
-    >
-      <h3 className="uppercase mt-8 tracking-[20px] text-slate-300 text-2xl">
+    <div className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto">
+      <motion.h3
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 2,
+        }}
+        className="uppercase mt-8 tracking-[20px] text-slate-300 text-2xl"
+      >
         About Me
-      </h3>
-      <div className="flex flex-col items-center gap-10 h-auto md:flex-row">
+      </motion.h3>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+        className="flex flex-col items-center gap-10 h-auto md:flex-row"
+      >
         <motion.img
           initial={{
             x: -200,
-            opacity: 0,
           }}
           whileInView={{
             x: 0,
-            opacity: 1,
           }}
           transition={{
-            duration: 1.1,
+            duration: 1.2,
           }}
-          viewport={{ once: true }}
           src={avatar.src}
           className="md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:ml-8 md:rounded-3xl md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
         />
-        <div className="text-xs text-left px-6 font-light md:px-9 md:text-sm xl:text-base">
+        <motion.div
+          initial={{
+            x: 200,
+          }}
+          whileInView={{
+            x: 0,
+          }}
+          transition={{
+            duration: 1.2,
+          }}
+          className="text-xs text-left px-6 font-light md:px-9 md:text-sm xl:text-base"
+        >
           <h4 className="font-bold text-lg my-2 md:text-xl xl:text-2xl xl:mb-8">
             Story About a Dreamer Persuer
           </h4>
@@ -72,9 +88,9 @@ const About = (props: Props) => {
             developer for almost 3-year. And I&apos;ll continuse to move
             forward.
           </p>
-        </div>
-      </div>
-    </motion.div>
+        </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

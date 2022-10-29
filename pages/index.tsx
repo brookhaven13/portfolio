@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#2e3440] text-slate-300 font-nunito h-screen snap-y snap-mandatory overflow-y-scroll">
+    <div className="bg-[#2e3440] text-slate-300 font-nunito h-screen snap-y snap-mandatory overflow-x-hidden">
       <Head>
         <title>Harley&apos;s Portfolio</title>
         <meta name="description" content="Harley's Personal Website" />
