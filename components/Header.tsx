@@ -22,12 +22,12 @@ function Header({}: Props) {
         transition={{
           duration: 0.8,
         }}
-        className="flex flex-col px-2 text-slate-300 uppercase font-black text-base my-5 md:text-3xl"
+        className="flex flex-col px-2 text-slate-300 uppercase font-black text-base my-2 md:text-3xl"
       >
         <Link href="#hero">
-          <div className="cursor-default">
+          <div className="cursor-pointer">
             <span>Har</span>
-            <span className="flex justify-around cursor-default">
+            <span className="flex justify-around">
               <span>l</span>
               <span>e</span>
               <span>y</span>
