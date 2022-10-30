@@ -18,7 +18,7 @@ const Experience = (props: Props) => {
           duration: 3,
         }}
       >
-        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-28 font-noto-sans font-black text-8xl tracking-wider">
+        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-28 font-noto-sans font-black text-7xl md:text-8xl tracking-wider">
           02
         </p>
 
@@ -28,7 +28,7 @@ const Experience = (props: Props) => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
-      <div className="w-full flex flex-row p-10 overflow-x-scroll snap-x snap-mandatory">
+      <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />

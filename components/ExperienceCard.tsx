@@ -7,8 +7,8 @@ type Props = {};
 
 const ExperienceCard = (props: Props) => {
   return (
-    <div className="flex flex-col items-center mb-4">
-      <div className="rounded-xl backdrop-blur-sm bg-[#ECEFF4]/10 text-[#D8DEE9] mx-2 px-6 py-4">
+    <div className="flex flex-col items-center mb-4 flex-shrink-0 text-sm md:text-base">
+      <div className="rounded-xl backdrop-blur-sm bg-[#4C566A]/30 text-[#D8DEE9] w-[22rem] md:w-[24rem] xl:w-[28rem] mx-2 px-6 py-4 snap-center cursor-default hover:bg-[#4C566A]/50 duration-200">
         <div>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           Reprehenderit omnis sed fugiat sequi iure! Et nostrum, nobis, eveniet
@@ -35,8 +35,8 @@ const ExperienceCard = (props: Props) => {
       </div>
       <div className="bg-[#434C5E] w-[1px] h-[4rem]"></div>
       <div className="flex flex-col items-center">
-        <div className="bg-[#434C5E] w-[20rem] h-[1px]"></div>
-        <div className="flex items-center justify-center bg-[#4C566A] p-2 rounded-full -mt-5">
+        <div className="bg-[#434C5E] w-[30rem] h-[1px]"></div>
+        <div className="flex items-center justify-center text-[#4c566a] bg-[#88C0D0] p-2 rounded-full -mt-5">
           <CodeRoundedIcon />
         </div>
         <div className="font-noto-sans font-bold text-lg">2018</div>

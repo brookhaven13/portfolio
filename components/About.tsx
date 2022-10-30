@@ -18,7 +18,7 @@ const About = (props: Props) => {
           duration: 3,
         }}
       >
-        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-24 font-noto-sans font-black text-6xl md:text-8xl tracking-wider">
+        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-24 font-noto-sans font-black text-7xl md:text-8xl tracking-wider">
           01
         </p>
 
@@ -38,7 +38,7 @@ const About = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-col items-center gap-4 h-auto md:flex-row"
+        className="flex flex-col items-center gap-1 md:gap-4 h-auto md:flex-row"
       >
         <motion.img
           initial={{
