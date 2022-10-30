@@ -28,7 +28,7 @@ const Experience = (props: Props) => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
-      <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6">
+      <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />

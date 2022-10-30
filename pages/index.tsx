@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#2e3440] text-slate-300 font-nunito h-screen snap-y snap-mandatory overflow-x-hidden">
+    <div className="bg-[#2e3440] text-slate-300 font-nunito h-screen snap-y snap-mandatory overflow-x-hidden scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
       <Head>
         <title>Harley&apos;s Portfolio</title>
         <meta name="description" content="Harley's Personal Website" />
