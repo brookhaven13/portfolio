@@ -1,10 +1,13 @@
+/* eslint-disable react/jsx-key */
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ExperienceCard from "./ExperienceCard";
+import data from "./../data/experience.json";
 
 type Props = {};
 
 const Experience = (props: Props) => {
+  const [expData, setExpData] = useState(data);
   return (
     <div className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto">
       <motion.div
@@ -29,10 +32,9 @@ const Experience = (props: Props) => {
         </h3>
       </motion.div>
       <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        {expData.map((element: any) => {
+          return <ExperienceCard expData={element} />;
+        })}
       </div>
     </div>
   );

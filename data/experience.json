@@ -2,6 +2,7 @@
   {
     "icon": "code",
     "year": "Dec 2021 - Present",
+    "period": "1 year",
     "company": "Moldex3D",
     "title": "Frontend Web Developer",
     "description": [
@@ -16,6 +17,7 @@
   {
     "icon": "code",
     "year": "Oct 2019 - May 2021",
+    "period": "1 yr 8 mos",
     "company": "ITPT Technology",
     "title": "Project Software Engineer",
     "description": [
@@ -30,6 +32,7 @@
   {
     "icon": "computer",
     "year": "Nov 2017 to May 2018",
+    "period": "7 mos",
     "company": "Institute for Information Industry",
     "title": "Full-stack Web Development Bootcamp",
     "description": [
@@ -42,7 +45,8 @@
   {
     "icon": "history",
     "year": "Nov 2017 to May 2018",
-    "company": "Institute for Information Industry",
+    "period": "1 yr 3 mos",
+    "company": "Newegg Commerce, Inc.",
     "title": "Customer Service Representatives",
     "description": [
       "Serve customers from around the world using Live Chat to communicate with them instantly and also via email",
