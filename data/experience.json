@@ -1,0 +1,59 @@
+[
+  {
+    "icon": "code",
+    "year": "Dec 2021 - Present",
+    "company": "Moldex3D",
+    "title": "Frontend Web Developer",
+    "description": [
+      "Developing new features and tools for our web application",
+      "Building reusable code or components for future use",
+      "Maintaining and improving our websites",
+      "Collaborating with backend developers and UI/UX designers to improve usability",
+      "Getting feedback from PM & users and build solutions for them"
+    ],
+    "skills": ["Angular", "HTML/CSS", "JS/TS", "Chart.js", "Angular Material"]
+  },
+  {
+    "icon": "code",
+    "year": "Oct 2019 - May 2021",
+    "company": "ITPT Technology",
+    "title": "Project Software Engineer",
+    "description": [
+      "Preparing, scheduling, coordinating, and monitoring assigned projects/websites",
+      "Communicating with customers and making sure the customer’s expectations are met",
+      "Using Babylon.js or Unity to build a 3D web application",
+      "Ensure high quality graphic standards and brand consistency",
+      "Write functional requirement documents and guides"
+    ],
+    "skills": ["HTML/CSS/JS", "C#", "Blender", "Unity", "Babylon.js"]
+  },
+  {
+    "icon": "computer",
+    "year": "Nov 2017 to May 2018",
+    "company": "Institute for Information Industry",
+    "title": "Full-stack Web Development Bootcamp",
+    "description": [
+      "Learned Frontend languages HTML, CSS and JavaScript",
+      "Learned Backend languages C# and SQL",
+      "Collaborating with teammates to build a web application at the end of the course"
+    ],
+    "skills": ["HTML/CSS/JS", "C#", "SQL"]
+  },
+  {
+    "icon": "history",
+    "year": "Nov 2017 to May 2018",
+    "company": "Institute for Information Industry",
+    "title": "Customer Service Representatives",
+    "description": [
+      "Serve customers from around the world using Live Chat to communicate with them instantly and also via email",
+      "Taking several chats at a time",
+      "Have general knowledge of 3C product and computer hardware to resolve customers’ issues",
+      "Handle various situations including marketing/promotions, payment, shipping, RMAs, post-sale service, etc."
+    ],
+    "skills": [
+      "Fluent English",
+      "highly stress resistant",
+      "great communication skills"
+    ]
+  }
+]

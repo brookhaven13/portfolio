@@ -27,6 +27,7 @@ const Projects = (props: Props) => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
+      <div></div>
     </div>
   );
 };
