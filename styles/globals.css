@@ -4,11 +4,18 @@
 
 @layer components {
   .custom-mask {
-    background: url("./../public/flower.jpg") -100% 40%;
+    background: url("./../public/flower.jpg") -90% 40%;
     background-clip: text;
     background-position: contain;
     color: #de466c;
     -webkit-text-fill-color: transparent;
     margin: 0.5rem;
+  }
+
+  .custom-card-bg {
+    background: url("./../public/workspace.jpg") 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
   }
 }
