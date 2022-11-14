@@ -6,30 +6,10 @@ import WorkHistoryRoundedIcon from "@mui/icons-material/WorkHistoryRounded";
 import CodeRoundedIcon from "@mui/icons-material/CodeRounded";
 import ComputerRoundedIcon from "@mui/icons-material/ComputerRounded";
 import { Tooltip } from "@mui/material";
+import { IExpData } from "./data-define.model";
 
 type Props = {
-  expData: {
-    icon: string;
-    year: string;
-    period: string;
-    company: string;
-    title: string;
-    description: string[];
-    skills: {
-      devicon: [
-        {
-          tooltip: string;
-          icon: string;
-        }
-      ];
-      img: [
-        {
-          tooltip: string;
-          icon: string;
-        }
-      ];
-    };
-  };
+  expData: IExpData;
 };
 
 const ExperienceCard = (props: Props) => {
