@@ -4,7 +4,30 @@ import React, { useEffect, useState } from "react";
 import ExperienceCard from "./ExperienceCard";
 import data from "./../data/experience.json";
 
-type Props = {};
+type Props = {
+  expData: {
+    icon: string;
+    year: string;
+    period: string;
+    company: string;
+    title: string;
+    description: string[];
+    skills: {
+      devicon: [
+        {
+          tooltip: string;
+          icon: string;
+        }
+      ];
+      img: [
+        {
+          tooltip: string;
+          icon: string;
+        }
+      ];
+    };
+  };
+};
 
 const Experience = (props: Props) => {
   const [expData, setExpData] = useState(data);
@@ -32,8 +55,8 @@ const Experience = (props: Props) => {
         </h3>
       </motion.div>
       <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
-        {expData.map((element: any) => {
-          return <ExperienceCard expData={element} />;
+        {expData.map((element, idx) => {
+          return <ExperienceCard expData={element} key={idx} />;
         })}
       </div>
     </div>

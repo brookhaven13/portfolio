@@ -75,9 +75,9 @@ const About = (props: Props) => {
           <h4 className="text-[#ECEFF4] text-base text-center md:text-left lg:text-lg lg:text-left xl:text-2xl xl:mb-8 xl:text-left">
             {about.title}
           </h4>
-          {about.paragraph.map((p, index) => {
+          {about.paragraph.map((p, idx) => {
             return (
-              <p className="mt-2" key={index}>
+              <p className="mt-2" key={idx}>
                 {p}
               </p>
             );
@@ -85,9 +85,9 @@ const About = (props: Props) => {
           <div className="mt-4">
             <h4 className="text-[#ECEFF4] text-sm">{about.status.title}</h4>
             <ul>
-              {about.status.list.map((p, i) => {
+              {about.status.list.map((p, idx) => {
                 return (
-                  <li className="text-xs mt-1 ml-4 list-disc" key={i}>
+                  <li className="text-xs mt-1 ml-4 list-disc" key={idx}>
                     {p}
                   </li>
                 );

@@ -9,4 +9,4 @@ Tech & tools I used for this projects:
 - React Simple Typewriter library
 - Farmer Motion library
 - Material UI library
-- react-social-icons library
+- devicon-react

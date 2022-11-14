@@ -3,7 +3,7 @@
     "icon": "code",
     "year": "Dec 2021 - Present",
     "period": "1 year",
-    "company": "Moldex3D",
+    "company": "Moldex3D (CoreTech System Co., Ltd.)",
     "title": "Frontend Web Developer",
     "description": [
       "Developing new features and tools for our web application",
@@ -12,39 +12,91 @@
       "Collaborating with backend developers and UI/UX designers to improve usability",
       "Getting feedback from PM & users and build solutions for them"
     ],
-    "skills": ["Angular", "HTML/CSS", "JS/TS", "Chart.js", "Angular Material"]
+    "skills": {
+      "devicon": [
+        { "tooltip": "Angular", "icon": "devicon-angularjs-plain colored" },
+        { "tooltip": "HTML", "icon": "devicon-html5-plain colored" },
+        { "tooltip": "CSS", "icon": "devicon-css3-plain colored" },
+        { "tooltip": "Sass", "icon": "devicon-sass-original colored" },
+        { "tooltip": "Tailwind", "icon": "devicon-tailwindcss-plain colored" },
+        { "tooltip": "JavaScript", "icon": "devicon-javascript-plain colored" },
+        { "tooltip": "TypeScript", "icon": "devicon-typescript-plain colored" },
+        { "tooltip": "ESlint", "icon": "devicon-eslint-original" },
+        { "tooltip": "Git", "icon": "devicon-git-plain colored" },
+        { "tooltip": "SourceTree", "icon": "devicon-sourcetree-original" }
+      ],
+      "img": [
+        {
+          "tooltip": "Angular Material",
+          "icon": "https://angular.io/generated/images/marketing/concept-icons/material.png"
+        },
+        {
+          "tooltip": "Chart.js",
+          "icon": "https://avatars.githubusercontent.com/u/10342521?s=280&v=4"
+        }
+      ]
+    }
   },
   {
     "icon": "code",
     "year": "Oct 2019 - May 2021",
     "period": "1 yr 8 mos",
     "company": "ITPT Technology",
-    "title": "Project Software Engineer",
+    "title": "Software Project Engineer",
     "description": [
-      "Preparing, scheduling, coordinating, and monitoring assigned projects/websites",
+      "Preparing, scheduling, coordinating, and monitoring assigned projects and web applications",
       "Communicating with customers and making sure the customer’s expectations are met",
       "Using Babylon.js or Unity to build a 3D web application",
-      "Ensure high quality graphic standards and brand consistency",
+      "Ensure high-quality graphic standards and brand consistency",
       "Write functional requirement documents and guides"
     ],
-    "skills": ["HTML/CSS/JS", "C#", "Blender", "Unity", "Babylon.js"]
+    "skills": {
+      "devicon": [
+        { "tooltip": "HTML", "icon": "devicon-html5-plain colored" },
+        { "tooltip": "CSS", "icon": "devicon-css3-plain colored" },
+        { "tooltip": "JavaScript", "icon": "devicon-javascript-plain colored" },
+        { "tooltip": "C#", "icon": "devicon-csharp-plain" },
+        { "tooltip": "Blender", "icon": "devicon-blender-original colored" },
+        { "tooltip": "Unity", "icon": "devicon-unity-original" },
+        { "tooltip": "OpenGL", "icon": "devicon-opengl-plain" },
+        { "tooltip": "GitHub", "icon": "devicon-github-original" }
+      ],
+      "img": [
+        {
+          "tooltip": "BabylonJS",
+          "icon": "https://www.babylonjs.com/assets/logo-babylonjs-social-twitter.png"
+        }
+      ]
+    }
   },
   {
     "icon": "computer",
-    "year": "Nov 2017 to May 2018",
+    "year": "Nov 2017 - May 2018",
     "period": "7 mos",
     "company": "Institute for Information Industry",
     "title": "Full-stack Web Development Bootcamp",
     "description": [
       "Learned Frontend languages HTML, CSS and JavaScript",
       "Learned Backend languages C# and SQL",
-      "Collaborating with teammates to build a web application at the end of the course"
+      "Collaborating with teammates to build a web application at the end of the course",
+      "Through this course, I realised that I prefer frontend because I'm a visual person."
     ],
-    "skills": ["HTML/CSS/JS", "C#", "SQL"]
+    "skills": {
+      "devicon": [
+        { "tooltip": "HTML", "icon": "devicon-html5-plain colored" },
+        { "tooltip": "CSS", "icon": "devicon-css3-plain colored" },
+        { "tooltip": "JavaScript", "icon": "devicon-javascript-plain colored" },
+        { "tooltip": "Bootstrap", "icon": "devicon-bootstrap-plain" },
+        { "tooltip": "jQuery", "icon": "devicon-jquery-plain colored" },
+        { "tooltip": "C#", "icon": "devicon-csharp-plain" },
+        { "tooltip": "mySQL", "icon": "devicon-mysql-plain" }
+      ],
+      "img": []
+    }
   },
   {
     "icon": "history",
-    "year": "Nov 2017 to May 2018",
+    "year": "Aug 2016 - Oct 2017",
     "period": "1 yr 3 mos",
     "company": "Newegg Commerce, Inc.",
     "title": "Customer Service Representatives",
@@ -54,10 +106,6 @@
       "Have general knowledge of 3C product and computer hardware to resolve customers’ issues",
       "Handle various situations including marketing/promotions, payment, shipping, RMAs, post-sale service, etc."
     ],
-    "skills": [
-      "Fluent English",
-      "highly stress resistant",
-      "great communication skills"
-    ]
+    "skills": []
   }
 ]
