@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Masonry from "@mui/lab/Masonry";
+import projectData from "./../data/projects.json";
 
 type Props = {};
 
@@ -17,7 +19,7 @@ const Projects = (props: Props) => {
           duration: 3,
         }}
       >
-        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-28 font-noto-sans font-black text-7xl md:text-8xl tracking-wider">
+        <p className="custom-mask relative top-10 md:top-20 md:-left-36 -left-28 font-noto-sans font-black text-7xl md:text-8xl tracking-wider">
           03
         </p>
 
@@ -27,7 +29,13 @@ const Projects = (props: Props) => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
-      <div></div>
+      <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
+        <Masonry columns={3} spacing={2}>
+          {projectData.map((element, index) => {
+            return <span key={index}>{element.name}</span>;
+          })}
+        </Masonry>
+      </div>
     </div>
   );
 };

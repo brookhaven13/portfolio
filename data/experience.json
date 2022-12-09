@@ -14,11 +14,11 @@
     ],
     "skills": {
       "devicon": [
-        { "tooltip": "Angular", "icon": "devicon-angularjs-plain colored" },
         { "tooltip": "HTML", "icon": "devicon-html5-plain colored" },
         { "tooltip": "CSS", "icon": "devicon-css3-plain colored" },
         { "tooltip": "Sass", "icon": "devicon-sass-original colored" },
         { "tooltip": "Tailwind", "icon": "devicon-tailwindcss-plain colored" },
+        { "tooltip": "Angular", "icon": "devicon-angularjs-plain colored" },
         { "tooltip": "JavaScript", "icon": "devicon-javascript-plain colored" },
         { "tooltip": "TypeScript", "icon": "devicon-typescript-plain colored" },
         { "tooltip": "ESlint", "icon": "devicon-eslint-original" },

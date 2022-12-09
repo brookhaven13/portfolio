@@ -1,0 +1,16 @@
+[
+  {
+    "name": "CSV Reader Tool",
+    "description": "Using Angular Building a CSV Reader Tool application",
+    "skills": ["Angular", "TypeScript"],
+    "github": "https://www.google.com.tw/?hl=zh_TW",
+    "demo": "https://www.google.com.tw/?hl=zh_TW"
+  },
+  {
+    "name": "Search Free Photo Web Application",
+    "description": "This project is a app to search free photos that using Pexels APIs to fetch their photo database. Note: This project is currently WIP. Next feature would be a show image modal. Once you click one of images, it would popup a modal containing the image and the photographer.",
+    "skills": ["React", "JSX", "Sass"],
+    "github": "https://www.google.com.tw/?hl=zh_TW",
+    "demo": "https://www.google.com.tw/?hl=zh_TW"
+  }
+]

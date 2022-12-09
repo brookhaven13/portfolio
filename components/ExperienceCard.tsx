@@ -37,6 +37,7 @@ const ExperienceCard = (props: Props) => {
           <span className="font-light ml-2">( {props.expData.period} )</span>
         </div>
         <div className="flex flex-row gap-1 mb-2">
+          {/* devicon */}
           <span className="flex flex-row gap-1">
             {props.expData.skills.devicon &&
               props.expData.skills.devicon.map((element, idx) => {
@@ -47,10 +48,16 @@ const ExperienceCard = (props: Props) => {
                 );
               })}
           </span>
+
+          {/* imgages */}
           <span className="flex flex-row items-center gap-1">
             {props.expData.skills.img &&
               props.expData.skills.img.map((element, idx) => {
-                return <img className="w-5 h-5" src={element.icon} key={idx} />;
+                return (
+                  <Tooltip title={element.tooltip}>
+                    <img className="w-5 h-5" src={element.icon} key={idx} />
+                  </Tooltip>
+                );
               })}
           </span>
         </div>
