@@ -2,15 +2,45 @@
   {
     "name": "CSV Reader Tool",
     "description": "Using Angular Building a CSV Reader Tool application",
+    "image": "./projects/csv-reader.png",
     "skills": ["Angular", "TypeScript"],
-    "github": "https://www.google.com.tw/?hl=zh_TW",
-    "demo": "https://www.google.com.tw/?hl=zh_TW"
+    "github": "https://github.com/brookhaven13/csv-reader-tool",
+    "demo": "https://brookhaven13.github.io/csv-reader-tool/"
   },
   {
     "name": "Search Free Photo Web Application",
     "description": "This project is a app to search free photos that using Pexels APIs to fetch their photo database. Note: This project is currently WIP. Next feature would be a show image modal. Once you click one of images, it would popup a modal containing the image and the photographer.",
-    "skills": ["React", "JSX", "Sass"],
-    "github": "https://www.google.com.tw/?hl=zh_TW",
-    "demo": "https://www.google.com.tw/?hl=zh_TW"
+    "image": "./projects/free-photo-app.png",
+    "skills": ["React", "JSX", "HTML", "CSS", "Sass", "JavaScript"],
+    "github": "https://github.com/brookhaven13/search-free-photo-app",
+    "demo": "https://brookhaven13.github.io/search-free-photo-app/"
+  },
+
+  {
+    "name": "Moldex3D Cloud Service",
+    "description": "Using Angular Building a CSV Reader Tool application",
+    "image": "./projects/cloud-service.png",
+    "skills": ["Angular", "TypeScript", "CSS", "HTML", "Angular Material"],
+    "demo": "https://portal.moldex3d.cloud/#/mainpage"
+  },
+  {
+    "name": "Moldex3D Materail Hub",
+    "description": "Using Angular Building a CSV Reader Tool application",
+    "image": "./projects/mhc.png",
+    "skills": ["Angular", "TypeScript", "CSS", "HTML", "Angular Material"],
+    "demo": "https://mhc.moldex3d.cloud/#/"
+  },
+  {
+    "name": "Simple Todo List",
+    "description": "Only using HTML, CSS and JavaScript without using any framework",
+    "image": "./projects/todo-list.png",
+    "demo": "https://harleys-simple-todo-app.netlify.app/"
+  },
+  {
+    "name": "ITP - ITS 3D Visualization Platform",
+    "description": "Using Angular Building a CSV Reader Tool application",
+    "image": "./projects/its.png",
+    "skills": ["HTML", "CSS", "Unity", "Blender 3D"],
+    "demo": "https://youtu.be/YH9YfZ3lios"
   }
 ]
