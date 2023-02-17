@@ -6,44 +6,73 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <motion.div
-      initial={{
-        y: -200,
-        opacity: 0,
-      }}
-      whileInView={{
-        y: 0,
-        opacity: 1,
-      }}
-      transition={{
-        duration: 1.5,
-      }}
-      viewport={{ once: true }}
-      className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto"
-    >
-      <h3 className="uppercase mt-8 tracking-[20px] text-slate-300 text-2xl">
-        About Me
-      </h3>
-      <div className="flex flex-col items-center gap-10 h-auto md:flex-row">
+    <div className="flex flex-col h-screen text-center md:text-left  max-w-7xl justify-evenly items-center mx-auto">
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 3,
+        }}
+      >
+        <p className="custom-mask relative top-10 md:top-20 md:-left-32 -left-24 font-noto-sans font-black text-7xl md:text-8xl tracking-wider">
+          01
+        </p>
+
+        <h3 className="uppercase mt-8 tracking-[20px] text-[#ECEFF4] text-2xl drop-shadow-xl">
+          About Me
+          <div className="bg-[#434C5E] w-[17rem] h-[1px] mt-1"></div>
+          <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
+        </h3>
+      </motion.div>
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1.5,
+        }}
+        className="flex flex-col items-center gap-1 md:gap-4 h-auto md:flex-row"
+      >
         <motion.img
           initial={{
             x: -200,
-            opacity: 0,
           }}
           whileInView={{
             x: 0,
-            opacity: 1,
           }}
           transition={{
-            duration: 1.1,
+            duration: 1.2,
           }}
-          viewport={{ once: true }}
+          viewport={{
+            once: true,
+          }}
           src={avatar.src}
           className="md:mb-0 flex-shrink-0 w-32 h-32 rounded-full object-cover md:ml-8 md:rounded-3xl md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
         />
-        <div className="text-xs text-left px-6 font-light md:px-9 md:text-sm xl:text-base">
-          <h4 className="font-bold text-lg my-2 md:text-xl xl:text-2xl xl:mb-8">
-            Story About a Dreamer Persuer
+        <motion.div
+          initial={{
+            x: 200,
+          }}
+          whileInView={{
+            x: 0,
+          }}
+          transition={{
+            duration: 1.2,
+          }}
+          viewport={{
+            once: true,
+          }}
+          className="text-[#aeb5c3] text-xs text-left px-6 font-thin md:px-9 md:text-sm xl:text-base"
+        >
+          <h4 className="text-[#E5E9F0] text-base text-center my-2 md:text-left lg:text-lg lg:text-left xl:text-2xl xl:mb-8 xl:text-left">
+            Story About a Dream Pursuer
           </h4>
           <p>
             Since I was a teenager, I have a great interest in Computer
@@ -62,19 +91,21 @@ const About = (props: Props) => {
           </p>
           <p className="mt-2">
             So I decided to follow my heart:
-            <span className="font-bold"> I want to be a programmer</span>. This
-            thought I&apos;d kept in my mind since college. That time I was more
-            determined than ever. I quit the job and attended a coding bootcamp,
-            and I worked as hard as I could.
+            <span className="text-[#E5E9F0]"> I want to be a programmer</span>.
+            This thought I&apos;d kept in my mind since college. This time I was
+            more determined than ever. I quit the job and attended a coding
+            bootcamp; I worked as hard as I could. Becuase of this course, I
+            learned the difference between frontend and backend. I found out I
+            like frontend more.
           </p>
           <p className="mt-2">
-            Finally, all the hard work has paid off. Now I am a Front-end Web
-            developer for almost 3-year. And I&apos;ll continuse to move
-            forward.
+            Finally, all the hard work has paid off. Now I am a frontend
+            developer for almost 3-year. It took me a long way to acheive my
+            dream, and I&apos;ll continue to move forward.
           </p>
-        </div>
-      </div>
-    </motion.div>
+        </motion.div>
+      </motion.div>
+    </div>
   );
 };
 
