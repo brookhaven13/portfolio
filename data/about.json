@@ -2,15 +2,16 @@
   "title": "Why I Want to be a Web Developer",
   "paragraph": [
     "Since I was a teenager, I have a great interest in various fields in computer science . Alhough my major in college is English Education, my passion for it has been evident after I attened a coding bootcamp in 2017.",
-    "The things I most like about coding is that I can really create something out of thin air, not from physical objects but from my mind! It's really nice when things come together to form a useful product or tool. It provides a great sense of accomplishment and personal pride. Beside that, I also like the debugging fixing part, I feel the satisfaction upon solving a bug or coding problem.",
-    "Looking back, I'm really glad that I had stayed consistent with my dream and pursue what I'm passion about. Now I am a frontend developer with 2-year experience."
+    "The things I most like about coding is that I can really create something out of thin air, not from physical objects but from my mind! It's really nice when things come together to form a useful product or tool. It provides a great sense of accomplishment and personal pride. Beside that, I also like the debugging and fixing part; I feel the satisfaction upon solving a bug or coding problem.",
+    "Looking back, I'm really glad that I had stayed consistent with my dream and pursue what I'm passion about. Now I am a frontend developer with 3-year experience."
   ],
   "status": {
     "title": "Current status:",
     "list": [
       "Working on my side projects using React/Next.js after work.",
       "Building a Spotfy clone web app.",
-      "Using Blender to molding a 3D character"
+      "Sometimes I would use Blender to create some 3D stuff.",
+      "If I'm not coding then I must be playing games. Current I'm obssesed with a game called Death Stranding. :)"
     ]
   }
 }

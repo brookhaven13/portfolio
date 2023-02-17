@@ -36,9 +36,9 @@ const ExperienceCard = (props: Props) => {
           <span className="font-bold text-lg">{props.expData.year}</span>
           <span className="font-light ml-2">( {props.expData.period} )</span>
         </div>
-        <div className="flex flex-row gap-1 mb-2">
+        <div className="flex flex-row gap-2 mb-2">
           {/* devicon */}
-          <span className="flex flex-row gap-1">
+          <span className="flex flex-row gap-2">
             {props.expData.skills.devicon &&
               props.expData.skills.devicon.map((element, idx) => {
                 return (
@@ -50,7 +50,7 @@ const ExperienceCard = (props: Props) => {
           </span>
 
           {/* imgages */}
-          <span className="flex flex-row items-center gap-1">
+          <span className="flex flex-row items-center gap-2">
             {props.expData.skills.img &&
               props.expData.skills.img.map((element, idx) => {
                 return (
