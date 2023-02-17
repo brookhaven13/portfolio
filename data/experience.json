@@ -16,6 +16,12 @@
         { "tooltip": "Tailwind", "icon": "devicon-tailwindcss-plain colored" },
         { "tooltip": "Devicon", "icon": "devicon-devicon-plain" },
         { "tooltip": "GitHub", "icon": "devicon-github-original" }
+      ],
+      "img": [
+        {
+          "tooltip": "Netlify",
+          "icon": "https://jeancochrane.com/static/images/blog/netlify-identity-dealbreakers/netlify-logo.png"
+        }
       ]
     }
   },
