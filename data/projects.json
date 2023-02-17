@@ -11,7 +11,7 @@
     "demo": "https://brookhaven13.github.io/csv-reader-tool/"
   },
   {
-    "name": "Search Free Photo Web Application",
+    "name": "Search Free Photo Website",
     "description": "This project is a morden web app to search free photos that using Pexels APIs to fetch their photo database.",
     "image": "./projects/free-photo-app.png",
     "skills": [
@@ -60,10 +60,11 @@
       { "name": "JavaScript", "icon": "devicon-javascript-plain colored" }
     ],
     "image": "./projects/todo-list.png",
+    "github": "https://github.com/brookhaven13/Simple_Todo_List",
     "demo": "https://harleys-simple-todo-app.netlify.app/"
   },
   {
-    "name": "ITP - ITS 3D Visualization Platform",
+    "name": "ITS 3D Visualization Platform",
     "description": "Customized Project for Smart City Exhibition in 2020.",
     "image": "./projects/its.png",
     "skills": [
