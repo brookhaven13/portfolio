@@ -14,6 +14,7 @@
         { "tooltip": "React", "icon": "devicon-react-original colored" },
         { "tooltip": "Next.js", "icon": "devicon-nextjs-line" },
         { "tooltip": "Tailwind", "icon": "devicon-tailwindcss-plain colored" },
+        { "tooltip": "MUI", "icon": "devicon-materialui-plain colored" },
         { "tooltip": "Devicon", "icon": "devicon-devicon-plain" },
         { "tooltip": "GitHub", "icon": "devicon-github-original" }
       ],

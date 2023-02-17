@@ -3,44 +3,77 @@
     "name": "CSV Reader Tool",
     "description": "Using Angular Building a CSV Reader Tool application",
     "image": "./projects/csv-reader.png",
-    "skills": ["Angular", "TypeScript"],
+    "skills": [
+      { "name": "Angular", "icon": "devicon-angularjs-plain colored" },
+      { "name": "TypeScript", "icon": "devicon-typescript-plain colored" }
+    ],
     "github": "https://github.com/brookhaven13/csv-reader-tool",
     "demo": "https://brookhaven13.github.io/csv-reader-tool/"
   },
   {
     "name": "Search Free Photo Web Application",
-    "description": "This project is a app to search free photos that using Pexels APIs to fetch their photo database. Note: This project is currently WIP. Next feature would be a show image modal. Once you click one of images, it would popup a modal containing the image and the photographer.",
+    "description": "This project is a morden web app to search free photos that using Pexels APIs to fetch their photo database.",
     "image": "./projects/free-photo-app.png",
-    "skills": ["React", "JSX", "HTML", "CSS", "Sass", "JavaScript"],
+    "skills": [
+      { "name": "React", "icon": "devicon-react-original colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+      { "name": "Sass", "icon": "devicon-sass-original colored" }
+    ],
     "github": "https://github.com/brookhaven13/search-free-photo-app",
     "demo": "https://brookhaven13.github.io/search-free-photo-app/"
   },
 
   {
     "name": "Moldex3D Cloud Service",
-    "description": "Using Angular Building a CSV Reader Tool application",
+    "description": "Work Project using Angular framework. This site is a portal site for our company products.",
     "image": "./projects/cloud-service.png",
-    "skills": ["Angular", "TypeScript", "CSS", "HTML", "Angular Material"],
+    "skills": [
+      { "name": "Angular", "icon": "devicon-angularjs-plain colored" },
+      { "name": "TypeScript", "icon": "devicon-typescript-plain colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+      { "name": "HTML", "icon": "devicon-html5-plain colored" },
+      { "name": "CSS", "icon": "devicon-css3-plain colored" },
+      { "name": "Sass", "icon": "devicon-sass-original colored" }
+    ],
     "demo": "https://portal.moldex3d.cloud/#/mainpage"
   },
   {
     "name": "Moldex3D Materail Hub",
-    "description": "Using Angular Building a CSV Reader Tool application",
+    "description": "Work Project using Angular framework.",
     "image": "./projects/mhc.png",
-    "skills": ["Angular", "TypeScript", "CSS", "HTML", "Angular Material"],
+    "skills": [
+      { "name": "Angular", "icon": "devicon-angularjs-plain colored" },
+      { "name": "TypeScript", "icon": "devicon-typescript-plain colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+      { "name": "HTML", "icon": "devicon-html5-plain colored" },
+      { "name": "CSS", "icon": "devicon-css3-plain colored" },
+      { "name": "Sass", "icon": "devicon-sass-original colored" }
+    ],
     "demo": "https://mhc.moldex3d.cloud/#/"
   },
   {
     "name": "Simple Todo List",
-    "description": "Only using HTML, CSS and JavaScript without using any framework",
+    "description": "Small project for practicing JavaScript. Only use HTML, CSS and JavaScript without any framework",
+    "skills": [
+      { "name": "HTML", "icon": "devicon-html5-plain colored" },
+      { "name": "CSS", "icon": "devicon-css3-plain colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" }
+    ],
     "image": "./projects/todo-list.png",
     "demo": "https://harleys-simple-todo-app.netlify.app/"
   },
   {
     "name": "ITP - ITS 3D Visualization Platform",
-    "description": "Using Angular Building a CSV Reader Tool application",
+    "description": "Customized Project for Smart City Exhibition in 2020.",
     "image": "./projects/its.png",
-    "skills": ["HTML", "CSS", "Unity", "Blender 3D"],
+    "skills": [
+      { "name": "HTML", "icon": "devicon-html5-plain colored" },
+      { "name": "CSS", "icon": "devicon-css3-plain colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+      { "name": "C#", "icon": "devicon-csharp-plain" },
+      { "name": "Blender", "icon": "devicon-blender-original colored" },
+      { "name": "Unity", "icon": "devicon-unity-original" }
+    ],
     "demo": "https://youtu.be/YH9YfZ3lios"
   }
 ]
