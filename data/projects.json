@@ -12,7 +12,7 @@
   },
   {
     "name": "Search Free Photo Website",
-    "description": "This project is a morden web app to search free photos that using Pexels APIs to fetch their photo database.",
+    "description": "A morden web app to search free photos that using Pexels APIs to fetch their photo database.",
     "image": "./projects/free-photo-app.png",
     "skills": [
       { "name": "React", "icon": "devicon-react-original colored" },
@@ -25,7 +25,7 @@
 
   {
     "name": "Moldex3D Cloud Service",
-    "description": "Work Project using Angular framework. This site is a portal site for our company products.",
+    "description": "Work Project using Angular framework and Sass.",
     "image": "./projects/cloud-service.png",
     "skills": [
       { "name": "Angular", "icon": "devicon-angularjs-plain colored" },
@@ -53,7 +53,7 @@
   },
   {
     "name": "Simple Todo List",
-    "description": "Small project for practicing JavaScript. Only use HTML, CSS and JavaScript without any framework",
+    "description": "Small project for practicing JavaScript without using framework",
     "skills": [
       { "name": "HTML", "icon": "devicon-html5-plain colored" },
       { "name": "CSS", "icon": "devicon-css3-plain colored" },
@@ -66,7 +66,7 @@
   {
     "name": "ITS 3D Visualization Platform",
     "description": "Customized Project for Smart City Exhibition in 2020.",
-    "image": "./projects/its.png",
+    "image": "./projects/its.jpg",
     "skills": [
       { "name": "HTML", "icon": "devicon-html5-plain colored" },
       { "name": "CSS", "icon": "devicon-css3-plain colored" },
