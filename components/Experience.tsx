@@ -32,7 +32,7 @@ const Experience = () => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
-      <div className="w-[32rem]">
+      <div className="w-[38rem]">
         <Carousel
           fullHeightHover={false}
           navButtonsAlwaysVisible={true}
