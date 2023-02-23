@@ -49,8 +49,7 @@
         { "tooltip": "TypeScript", "icon": "devicon-typescript-plain colored" },
         { "tooltip": "ESlint", "icon": "devicon-eslint-original" },
         { "tooltip": "Git", "icon": "devicon-git-plain colored" },
-        { "tooltip": "GitLab", "icon": "devicon-gitlab-plain" },
-        { "tooltip": "SourceTree", "icon": "devicon-sourcetree-original" }
+        { "tooltip": "GitLab", "icon": "devicon-gitlab-plain" }
       ],
       "img": [
         {

@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import Carousel from "react-material-ui-carousel";
 import ExperienceCard from "./ExperienceCard";
 import data from "./../data/experience.json";
-import { IExpData } from "./data-define.model";
 
 type Props = {};
 
@@ -32,10 +32,21 @@ const Experience = () => {
           <div className="bg-[#88C0D0] w-12 h-1 -mt-[3px]"></div>
         </h3>
       </motion.div>
-      <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded">
-        {expData.map((element: any, idx: number) => {
-          return <ExperienceCard expData={element} key={idx} />;
-        })}
+      <div className="w-[32rem]">
+        <Carousel
+          fullHeightHover={false}
+          navButtonsAlwaysVisible={true}
+          autoPlay={false}
+          animation={"slide"}
+          duration={600}
+          className="w-full flex flex-col items-center justify-center px-8"
+        >
+          {/* <div className="w-full flex flex-row overflow-x-scroll snap-x snap-mandatory p-4 md:p-6 scrollbar- scrollbar-thin scrollbar-track-[#E5E9F0]/25 scrollbar-thumb-[#88C0D0] scrollbar-thumb-rounded"> */}
+          {expData.map((element: any, idx: number) => {
+            return <ExperienceCard expData={element} key={idx} />;
+          })}
+          {/* </div> */}
+        </Carousel>
       </div>
     </div>
   );

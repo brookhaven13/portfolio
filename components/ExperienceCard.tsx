@@ -30,7 +30,7 @@ const ExperienceCard = (props: Props) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-end mb-4 flex-shrink-0 text-sm md:text-base">
+    <div className="h-[26rem] flex flex-col items-center justify-end mb-4 flex-shrink-0 text-sm md:text-base">
       <div className="h-full text-left mx-2 px-6 py-4 w-[22rem] md:w-[24rem] rounded-xl backdrop-blur-sm bg-[#4C566A]/30 text-[#D8DEE9] xl:w-[28rem] snap-center cursor-default hover:bg-[#4C566A]/50 duration-200">
         <div className="mb-2">
           <span className="font-bold text-lg">{props.expData.year}</span>

@@ -54,7 +54,7 @@ const Projects = (props: Props) => {
             {projectData.map((element, index) => {
               return (
                 <div key={index} className="flex flex-col justify-center gap-1">
-                  <div className="cursor-pointer flex flex-col flex-wrap gap-2 justify-evenly items-center text-sm text-white text-medium">
+                  <div className="flex flex-col flex-wrap gap-2 justify-evenly items-center text-sm text-white text-medium">
                     {element.name}
                   </div>
                   <div className="relative overflow-hidden bg-no-repeat bg-cover w-full">
